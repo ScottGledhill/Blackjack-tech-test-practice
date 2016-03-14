@@ -1,8 +1,10 @@
 
 class Player
 
-  def initialize
+  attr_reader :hand
 
+  def initialize
+    @hand = []
   end
 
 end

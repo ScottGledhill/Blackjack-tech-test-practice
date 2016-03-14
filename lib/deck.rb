@@ -17,4 +17,5 @@ class Deck
   def view_cards #Get rid of this??
     CARDS
   end
+
 end
