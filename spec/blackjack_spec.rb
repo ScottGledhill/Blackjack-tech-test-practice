@@ -16,6 +16,9 @@ describe Blackjack do
     expect(subject.player.hand.length).to eq 2
   end
 
-  # it 'should check the score of a hand' do
+  it 'should check the score of a hand' do
+    allow(player).to receive(:hand).and_return([5,4])
+    expect(subject.check_score(player)).to eq 9
+  end
 
 end

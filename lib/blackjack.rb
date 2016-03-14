@@ -11,9 +11,11 @@ class Blackjack
   end
 
   def deal_cards
-    @player.hand.push(@shuffled_deck[0] )
+    @player.hand.push(@shuffled_deck[0])
     @player.hand.push(@shuffled_deck[1])
   end
-  # def check_score(hand)
 
+  def check_score(player)
+    player.hand.inject(0){|sum,x| sum + x }
+  end
 end
