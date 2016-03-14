@@ -1,9 +1,9 @@
 class Deck
 
   CARDS = ["Ah", "As", "Ad", "Ac",
-           "Kh", "Ks", "Kd", "Kc",
-           "Qh", "Qs", "Qd", "Qc",
-           "Jh", "Js", "Jd", "Jc",
+           "10", "10", "10", "10",
+           "10", "10", "10", "10",
+           "10", "10", "10", "10",
            "10h", "10s", "10d", "10c",
            "9h", "9s", "9d", "9c",
            "8h", "8s", "8d", "8c",
@@ -18,4 +18,6 @@ class Deck
     CARDS
   end
 
-end
+  def tens
+
+  end
